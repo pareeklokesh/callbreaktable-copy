@@ -1,0 +1,1111 @@
+:root {
+	--maincolor:#4bb84d;
+}
+* {
+	font-family: 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #fff;
+  background: url('../img/bg.png') no-repeat;
+  background-size: cover;
+}
+img {max-width: 100%;}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.back-btn {
+  background: linear-gradient(#fcdb00, #ff7200);
+  border: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.moneytrophy::after, .gradient-border::after {
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1.8px;
+  background: linear-gradient(to right, #fffe00, #d2732a);
+  content: '';
+  z-index: -1;
+  border-radius: 25px;
+}
+.moneytrophy {
+  background: #160002;
+  border-radius: 25px;
+  position: relative;
+}
+.moneytrophy button {
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 25px;
+  font-size: 20px;
+  position: relative;
+}
+.moneytrophy button:first-child::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 106%;
+  background: linear-gradient(to right, #fffe00, #d2732a);
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+.round-btn {
+  background: #160002;
+  border-radius: 25px;
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  padding: 5px 15px;
+  font-size: 20px;
+  border: 2px solid #fcee21;
+}
+.round-btn span {
+  color: #64ff00;
+}
+.callbreaktablegame {
+  background: url('../img/table.png') no-repeat;
+  background-size: cover;
+  height: 558px;
+  background-position: center;
+}
+.callbrak-user, .callbrak-usertb{
+padding: 0px;
+width: 130px;
+height: 130px;
+border-radius: 50%;
+}
+.gradient-border::after {
+  position: absolute;
+top: -2px;
+bottom: -2px;
+left: -2px;
+right: -2px;
+background: linear-gradient(to bottom, #fffe00, #d2732a);
+content: '';
+border-radius: 50%;
+z-index: 1
+}
+.userName {
+  text-align: center;
+  width: 100%;
+  display: block;
+  background: #160002;
+  font-size: 12px;
+  padding: 2px 2px;
+  border-top: 1px solid #ff8600;
+  position: relative;
+  z-index: 1;
+}
+.user-profile-card img {
+  margin-left: -91px;
+  width: 30px;
+}
+.user-profile-card img {
+  margin-left: -21px;
+  width: 32px;
+}
+.user-profile-card {
+  position: absolute;
+  bottom: -1px;
+}
+.callbrak-usertb {
+  top: -11%;
+}
+.user-point {
+  position: absolute;
+  top: 15%;
+  right: -80%;
+  background: #160002;
+  border-radius: 25px;
+  padding: 6px 8px;
+  height: 44px;
+}
+.user-point span, .userpoint-d {
+  background: linear-gradient(#d3d3d3, #a5a5a5);
+  color: #000;
+  font-weight: 600;
+  padding: 2px;
+  font-size: 18px;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
+.user-point span:last-child {
+  background: linear-gradient(#c9f538, #99a400);
+}
+.userpoint-d {
+  background: linear-gradient(#ffbfbf, #ff5f5f);
+  bottom: -12%;
+  right: -25px;
+}
+.callbrak-usertb2, .callbrak-usertb3 {
+  left: 0;
+  top: 25%;
+}
+.callbrak-usertb3 {
+  left: inherit;
+  right: 0;
+}
+.callbrak-usertb2 .user-point {
+  top: inherit;
+  bottom: 48%;
+  right: 0;
+}
+.callbrak-usertb2 .user-point, .callbrak-usertb3 .user-point {
+  top: 110%;
+  right: inherit;
+  left: 13px;
+  width: 88px;
+}
+.callbreak-active::before {
+  content: "";
+  display: block;
+  border: 2px solid #fff;
+  position: absolute;
+  left: -8%;
+  top: -8%;
+  width: 116%;
+  height: 116%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #68a904;
+}
+.callbrak-usertb3 .userpoint-d {
+  left: -25px;
+  right: inherit;
+}
+.callbrak-usertb4 .user-point {
+  height: auto;
+}
+.callbrak-usertb4 .user-point p {
+  font-size: 14px;
+  margin-bottom: 3px !important;
+}
+.callbrak-usertb4 .user-point {
+  height: auto;
+  padding: 5px 5px;
+  width: 100px;
+  border-radius: 2px 22px 2px 22px;
+}
+.callbrak-usertb4 {
+  position: absolute;
+  bottom: 8px;
+  z-index: 11
+}
+.allcards img {
+  margin-left: -50px;
+  box-shadow: 0 0 10px #818181;
+  width: 115px;
+}
+.allcards {
+  position: absolute;
+  bottom: -45px;
+}
+.gamemain-card {
+  width: 120px;
+  height: 120px;
+  top: 27%;
+}
+.gamemain-card img {
+  width: 120px;
+  box-shadow: 0 0 8px #000;
+}
+.addbit-btn {
+  background: linear-gradient(#fcdb00, #ff7200);
+  border: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  font-size: 32px;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0 0 5px #000;
+  margin: 32px 15px;
+  position: relative;
+}
+.yourbid h2 {
+  margin: 0;
+    margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 0 6px #000;
+  letter-spacing: 1px;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.yourbid {
+  padding: 15px;
+  z-index: 11;
+  top: 9%;
+}
+.confirm-btn {
+  background: #160002;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 4px 30px;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+.addbit-active-btn::before {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  left: -6px;
+  top: -6px;
+}
+.yourbid::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #a6aa38 50%, transparent 100%);
+  position: absolute;
+  opacity: 0.6;
+  z-index: -1;
+}
+.confirm-btn:hover {
+  background: #fff;
+  color: #160002;
+}
+.scoreboard .modal-content {
+  background: #160002;
+  border: 1px solid #fff;
+}
+.scoreboard .btn-close {
+  background: linear-gradient(#ffbfbf, #ff5f5f);
+  border-radius: 50%;
+  color: #fff;
+  right: 20px;
+  opacity: 1;
+width: 28px;
+height: 28px;
+}
+.scoreboard .modal-header h5 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.scoreboard .btn-close i {
+  font-size: 35px;
+  color: #000;
+}
+.scoreboard .btn-close {
+  background: linear-gradient(#ffbfbf, #ff5f5f);
+  border-radius: 50%;
+  color: #000;
+  right: 20px;
+  opacity: 1;
+  width: 32px;
+  height: 32px;
+}
+.scoreboard .btn-close i {
+  font-size: 35px;
+  color: #000;
+  position: relative;
+  top: -2px;
+}
+.scoreboard .table thead, .trborder {
+  border-bottom: 2px solid #772d36;
+}
+.trborder {
+ border-top: 2px solid #772d36; 
+}
+.scoreboard .table tfoot tr td {
+  color: #fcee21;
+}
+.scoreboard .table tr td, .scoreboard .table tr th {
+  font-weight: 500;
+  font-weight: 600;
+}  
+.exitModaldiv .modal-body h6 {
+  color: #fcee21;
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 45px;
+}
+.noyes-btn {
+  background: #ff0000;
+  color: #160002;
+  font-weight: 600;
+  font-size: 18px;
+  border: 1.9px solid #fff;
+  padding: 5px 8px;
+  border-radius: 25px;
+  min-width: 100px;
+}
+.callbreaktable-container {
+  max-width: 1140px;
+}
+
+
+@media (max-width: 1140px) {
+  .callbreaktable-container {
+  max-width: 926px;
+}
+.callbreaktablegame {
+  height: 455px;
+}
+
+}
+
+
+@media (max-width: 991px) {
+  .callbreaktable-container {
+  max-width: 735px;
+}
+.callbreaktablegame {
+  height: 350px;
+}
+.callbrak-user, .callbrak-usertb {
+  width: 90px;
+  height: 90px;
+}
+.user-point span, .userpoint-d {
+  width: 26px;
+  height: 26px;
+  font-size: 16px;
+}
+.user-point {
+  padding: 2px 6px;
+  height: 33px;
+}
+.back-btn {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+}
+.moneytrophy button img {
+  width: 20px;
+}
+.moneytrophy button, .round-btn {
+  padding: 3px 10px;
+  font-size: 16px;
+}
+.moneytrophy button img.me-3 {
+  margin-right: 5px !important;
+}
+.moneytrophy button img.ms-3 {
+  margin-left: 5px !important;
+}
+.round-btn {
+  border: 1px solid #fcee21;
+}
+.back-btn.me-4, .round-btn.me-4 {
+  margin-right: 10px !important;
+}
+.addbit-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  margin: 10px;
+}
+.addbit-active-btn::before {
+  left: -9%;
+  top: -8%;
+}
+.yourbid h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.callbrak-usertb2 .user-point, .callbrak-usertb3 .user-point {
+  width: auto;
+}
+.gamemain-card img {
+  width: 60px;
+}
+.allcards img {
+  margin-left: -30px;
+  width: 70px;
+}
+.gamemain-card img:last-child {
+  bottom: -20% !important;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+}
+.gamemain-card img:first-child {
+  top: -10% !important;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+.gamemain-card img:nth-child(3) {
+  right: -21% !important;
+  top: 0;
+}
+.gamemain-card img:nth-child(3) {
+  right: -21% !important;
+  top: 21%;
+}
+.gamemain-card img:nth-child(2) {
+  left: -21% !important;
+  top: 21%;
+}
+
+
+
+}
+
+
+@media (max-width: 767px) and (orientation: landscape) {
+  .callbrak-user, .callbrak-usertb {
+  width: 60px;
+  height: 60px;
+}
+.user-profile-card img {
+  margin-left: -19px;
+  width: 25px;
+}
+.userName {
+  font-size: 10px;
+}
+.allcards img {
+  margin-left: -25px;
+  width: 60px;
+}
+.allcards {
+  position: absolute;
+  bottom: 0px;
+}
+.callbreaktable-container {
+  max-width: 500px;
+}
+.callbreaktablegame {
+  height: 240px;
+}
+.gamemain-card img {
+  width: 40px;
+}
+.gamemain-card img:last-child {
+  bottom: 20% !important;
+}
+.gamemain-card img:nth-child(3) {
+  right: 0% !important;
+}
+.gamemain-card img:nth-child(2), .callbrak-usertb3 .user-point {
+  left: 0% !important;
+}
+.callbrak-usertb2 .user-point, .callbrak-usertb3 .user-point {
+  width: 72px;
+}
+
+}
+
+
+
+/* ----------------- CallBreak Table ----------------- */
+
+.backbtn {
+  background: linear-gradient(to top, #c49324, #e4c023, #e4be1c);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backbtn i {
+  color: #3c2909;
+  font-size: 25px;
+}
+.winpoint {
+  background: linear-gradient(to top, #c49324, #e4c023, #e4be1c);
+  padding: 5px 8px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+.winpoint .profileimage {
+  width: 40px;
+  height: 40px;
+  background: #3b2400;
+  border-radius: 50%;
+  padding: 2px;
+}
+.winpoint p {
+  background: #3c2909;
+  text-transform: uppercase;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-left: 8px;
+  padding: 2px 22px;
+}
+.winpoint p strong, .winpoint p span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+.winpoint i {
+  background: #3c2909;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.winpoint p span {
+  padding-left: 15px;
+  color: #ffde00;
+}
+.bet {
+  background: #023844;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bet::before {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: 1px solid #023844;
+  border-radius: 50%;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+}
+.newgames-bet span {
+  height: 200px;
+  position: absolute;
+  width: 20px;
+  left: 0;
+  top: 0;
+  transform-origin: bottom center;
+  font-size: 12px;
+  color: #4bacbf;
+}
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(12deg); }
+.char3 { transform: rotate(18deg); }
+.char4 { transform: rotate(24deg); }
+.char5 { transform: rotate(30deg); }
+.char6 { transform: rotate(36deg); }
+.char7 { transform: rotate(42deg); }
+.char8 { transform: rotate(48deg); }
+.char9 { transform: rotate(54deg); }
+.newgames-bet {
+  background: #0abfdc;
+}
+.newgames-bet i {
+  color:  #023844;
+}
+.newgames-bet::before {
+  border-color: #0abfdc; 
+}
+.calluser-profile img {
+  border: 5px solid #b1b1b1;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.calluser-profile p {
+  font-size: 12px;
+  background: #190b0c;
+  border-radius: 25px;
+  padding: 2px 15px;
+  border: 1px solid #fff;overflow: hidden;
+}
+.calluser-profile p span {
+  background: #341419;
+  font-size: 14px;
+  color: #e1b91c;
+  margin-left: -15px;
+margin-right: -15px;
+margin-top: 2px;
+}
+.video-play-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #0abfdc;
+  border-radius: 50%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+.video-play-button:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #0abfdc;
+  border-radius: 50%;
+  transition: all 200ms;
+  border: 0;
+}
+.video-play-button i {
+  color: #023844;
+  position: relative;
+  z-index: 11;
+  font-size: 22px;
+}
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+.callbreak-bodysecond {
+  background: #000;
+}
+
+
+
+
+
+/* ----------------- CallBreak Table End! ----------------- */
+
+
+/* ----------------- CallBreak Lobby ----------------- */
+
+.lobby-body {
+  background: #fff;
+}
+/*.lobby-fullpage {
+  margin: 0px auto;
+  background: url('../img/lobbybg.png') no-repeat;
+  height: 100vh;
+  width: 100%;
+}*/
+.lobby-start {
+  background: url('../img/lobbybg.png') no-repeat;
+  background-size: cover;
+}
+.lobby-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #1e080d;
+}
+.lobby-profile p {
+  color: #1e080d;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 25px;
+  border: 2px solid #1e080d;
+  box-shadow: 0 0 8px #1e080d;
+  margin-left: -25px;
+  padding-left: 30px;
+}
+.lobby-addcashbtn {
+  border-radius: 25px;
+  color: #e6e6e8;
+  background: rgba(0,0,0, 0.2);
+  border: 0;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 4px 15px;
+  padding-right: 45px;
+}
+.lobby-tabs {
+  background: #ededed;
+  box-shadow: -8px 0px 9px -2px #5b2a32;
+  margin-top: 0px;
+  padding: 20px;
+}
+.lobby-tabs .nav.nav-tabs button {
+  width: 34%;
+  text-align: center;
+  color: #817677 !important;
+  font-weight: 500;
+  padding: 15px 5px;
+  position: relative;
+  border: 0px !important;
+  min-height: 54px;
+  font-size: 18px;
+}
+.lobby-tabs .nav.nav-tabs button.active {
+  background: transparent !important;
+  border: 0 !important;
+  color: #1e080d !important;
+  font-weight: 600;
+}
+.lobby-tabs .nav.nav-tabs {
+  border-bottom: 0;
+  position: relative;
+}
+.lobby-tabs .nav.nav-tabs::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #512d33;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lobby-tabs .nav.nav-tabs button::before {
+  content: "";
+  display: block;
+  background: #512d33;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  bottom: 1px;
+  border-radius: 25px;
+  transition: all .4s linear;
+}
+.lobby-tabs .nav.nav-tabs button.active::before {
+  width: 100%;
+  background: #d64c52;
+  left: 0;
+  right: 0;
+}
+.players-winning-btn {
+  background: #fbfbfb;
+  border: 0;
+  color: #887d7e;
+  padding: 5px 10px;
+  box-shadow: 0 0 12px #d4d4d4;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.join-beginner {
+  background: #f0f0f0;
+  box-shadow: 0 0px 4px #bfbfbf;
+  border-radius: 6px;
+}
+.join-beginner-header h2 {
+  margin: 0;
+  color: #1e080d;
+  font-weight: 600;
+  font-size: 22px;
+}
+.join-beginner-header p {
+  color: #1e080d;
+  font-weight: 600;
+  font-size: 16px;
+}
+.join-beginner {
+  padding: 15px;
+}
+.join-beginner-body p {
+  color: #837879;
+  font-weight: 600;
+}
+.join-beginner-body span {
+  color: #ee4b05;
+  font-weight: 600;
+  font-size: 20px;
+}
+.join-beginner-body button {
+  background: #19be00;
+  border: 0;
+  color: #f0f0f0;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 3px 15px;
+}
+.yourbid {
+  transition: all .4s linear;
+  transform: scale(0);
+  visibility: hidden;
+}
+.yourbid-open {
+  transform: scale(1);
+  visibility: visible;
+}
+
+.circle {
+  --r: 20vmin;
+  /* radius of the circle */
+  --t: 8;
+  /* total number of books */
+  position: relative;
+  --w: calc(var(--r) * 1.2);
+  /* the top of the book is 20% out further than the edge of the circle */
+  width: calc(2 * var(--w));
+  height: calc(2 * var(--w));
+  margin: 0;
+  padding: 0;
+  animation: rotate 10s linear infinite;
+  animation-fill-mode: forwards;
+}
+/*@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}*/
+.book {
+  height: calc(var(--r) * 1.2);
+  width: calc(var(--r) / 5);
+  position: absolute;
+  bottom: var(--w);
+  left: calc(var(--w) - (0.5 * var(--r) / 5));
+  transform-origin: center bottom;
+  transform: rotate(calc(var(--n) * 22.5deg));
+  position: absolute;
+  background-image: url(https://i.stack.imgur.com/9XtVu.png);
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+.book:nth-child(1) {
+  --n: 1;
+}
+
+.book:nth-child(2) {
+  --n: 2;
+}
+
+.book:nth-child(3) {
+  --n: 3;
+}
+
+.book:nth-child(4) {
+  --n: 4;
+}
+
+.book:nth-child(5) {
+  --n: 5;
+}
+
+.book:nth-child(6) {
+  --n: 6;
+}
+
+.book:nth-child(7) {
+  --n: 7;
+}
+
+.book:nth-child(8) {
+  --n: 8;
+}
+
+/* -------------------Menu Css------------------- */
+
+.lobbyMenu {
+  background: #1f1200;
+border: 1px solid #bcaf61 !important;
+  border-radius: 8px 8px 2px 2px;
+  width: 235px;
+  transform: translate(-200%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s linear;
+  z-index: 999;
+}
+.lobbyMenu {
+  padding-top: 0 !important;
+  background: #160002;
+border: 1px solid #fffe00 !important;
+  left: 0;
+}
+.lobbyMenu {
+  width: 290px !important;
+}
+.lobbyMenu-open {
+  transform: translate(0);
+  opacity: 1;
+  visibility: visible;
+}
+.lobbyMenu button {
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lobbyMenu button {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  padding: 4px 20px;
+  font-size: 28px;
+  font-weight: 500;
+  border-bottom: 1.9px solid #fffe00 !important;
+  border-radius: 6px 6px 0 0;
+}
+.lobbyMenu button.landscape-block {
+  display: flex !important;
+}
+.lobbyMenu button img {
+  margin-right: 25px;
+}
+.lobbyMenu .lobbyclose-btn {
+  border: 0 !important;
+  background: #f40403;
+  width: 32px !important;
+  height: 32px !important;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 0;
+}
+.pokernav-item {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  border-bottom: 1.9px solid #9f9f43;
+  padding: 8px 30px;
+  transition: all .4s linear;
+  position: relative;
+  cursor: pointer;
+}
+.pokernav-item img, .pokernav-item i {
+  margin-right: 20px;
+  min-width: 24px;
+}
+.lobbyMenu .logout-lobbybtn {
+  background: linear-gradient(#a91a27, #710e15);
+  margin: 0px auto;
+  margin-bottom: 8px;
+  width: auto;
+  text-align: center;
+  margin-top: 8px;
+  border: 0 !important;
+  border-radius: 6px !important;
+  text-transform: uppercase !important;
+  padding: 5px 15px;
+}
+/*.pokernav-item:hover {
+  background: #dcbd7d;
+  color: #1a0a0b;
+}
+.pokernav-item:hover i {
+  color: #1a0a0b;
+}
+.pokernav-item:hover .upcoming-text {
+  color: #1a0a0b;
+}*/
+.upcoming-text {
+  font-size: 10px;
+  color: #cece09;
+  display: block;
+  text-align: right;
+  text-transform: capitalize;
+  margin-top: -3px;
+}
+.lobbyMenu button.menumodaltext {
+  padding: 4px 10px;
+    padding-right: 10px;
+  padding-right: 35px;
+  font-size: 28px !important;
+  text-transform: uppercase !important;
+}
+.lobbyMenu .pokerMenu-list li:last-child .pokernav-item {
+  border-bottom: 0;
+}
+
+/* -------------------Menu Css End!------------------- */
+
+
+
+
+@media (min-width: 767px) {
+ .lobby-fullpage {
+  max-width: 100%;
+}  
+.lobby-tabs, .lobby-start {
+  min-height: 100vh;
+}
+.players-winning-btn {
+  padding: 5px 20px;
+  min-width: 125px;
+}
+
+}
+
+@media (max-width: 420px) {
+  .join-beginner-header h2, .join-beginner-body p, .join-beginner-body button, .players-winning-btn, .lobby-addcashbtn {
+  font-size: 14px;
+}
+.join-beginner-header p, .players-winning-btn, .lobby-profile p {
+  font-size: 12px;
+}
+.join-beginner-header .w-auto:last-child {
+  padding-left: 0;
+}
+.join-beginner-header p img {
+  width: 12px;
+  margin-right: 2px !important;
+}
+.join-beginner-header p:first-child img, .players-winning-btn img {
+  width: 10px;
+}
+.join-beginner-body span {
+  font-size: 16px;
+}
+.lobby-header .btn.p-0.me-3 {
+  width: 30px;
+  margin-right: 5px !important;
+}
+.lobby-profile img {
+  width: 45px;
+  height: 45px;
+}
+.lobby-addcashbtn img {
+  width: 30px;
+  top: -2px !important;
+}
+.lobby-addcashbtn {
+  padding-right: 36px;
+}
+
+}
+
+
+/* ----------------- CallBreak Lobby End! ----------------- */
